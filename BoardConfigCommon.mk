@@ -6,7 +6,9 @@
 
 BOARD_VENDOR := xiaomi
 
+# Build
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+BUILD_BROKEN_PREBUILT_ELF_FILES := true
 
 COMMON_PATH := device/xiaomi/sdm845-common
 
