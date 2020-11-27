@@ -330,6 +330,12 @@
     <!-- Should the pinner service pin the Home application? -->
     <bool name="config_pinnerHomeApp">true</bool>
 
+    <!-- Whether to enable doze always on -->
+    <bool name="config_enableDozeAlwaysOn">true</bool>
+
+    <!-- Whether device supports an alt. ambient display -->
+    <bool name="config_alt_ambient_display">true</bool>
+
     <!-- List of files pinned by the Pinner Service with the JIT Zygote boot image b/119800099 -->
     <string-array translatable="false" name="config_jitzygoteBootImagePinnerServiceFiles">
         <item>"/system/framework/framework.jar"</item>
